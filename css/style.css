@@ -1,5 +1,222 @@
 @charset "utf-8";
 
-p{
-    color:#36a93b;
+body{
+    font-family: "Avenir Next";
 }
+
+li{
+    list-style: none;
+}
+
+.header{
+    background-color: #8cf5ff;
+    height: 90px;
+}
+
+.header-logo{
+    float: left;
+    font-size: 40px;
+    padding: 17px 70px;
+}
+
+.header-list a{
+    float: left;
+    padding: 30px;
+    color: #000;
+    text-decoration-line: none;
+}
+
+.about-container{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.about-title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.side-image img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.side-text{
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+}
+
+p.about-name{
+    font-size: 25px;
+}
+
+p.about-text{
+    font-size: 15px;
+}
+
+.service-title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.service-container{
+    width: 100%;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.sample-one{
+    display: inline-block;
+    height: 300px;
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+    border: solid 3px #f7f7f7;
+    vertical-align: top;
+}
+
+.sample-one p{
+    font-size: 30px;
+}
+
+.scroll-one{
+    display: inline-block;
+    height: 300px;
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+    overflow: auto;
+    border: solid 3px #f7f7f7;
+}
+
+.hobby-title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.hobby-container{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.hobby-one img{
+    display: inline-block;
+}
+
+.hobby-one{
+    display: inline-block;
+    height: 300px;
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.hobby-two{
+    display: inline-block;
+    height: 300px;
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.contact-title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.contact-container{
+    width: 100%;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.contact-name{
+    display: inline-block;
+}
+
+.contact-email{
+    display: inline-block;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+}
+
+textarea{
+    resize: none;
+    width: 500px;
+    height: 100px;
+}
+
+.contact-button input{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: #8cf5ff;
+    color: #ffffff;
+    border-color: #26d0c9;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #8cf5ff;
+}
+
+
+
+/*タブレット*/
+@media all and (max-width: 1000px){
+    
+}
+
+/*スマートフォン*/
+
+@media all and (max-width: 670px){
+    .header-list{
+        display: none;
+    }
+
+    .sample-one{
+        width: 80%;
+    }
+
+    .scroll-one{
+        width: 80%;
+    }
+
+    .hobby-one{
+        width: 80%;
+    }
+
+    .hobby-two{
+        width: 80%;
+        margin-top: 120px;
+    }
+
+    textarea{
+        width: 90%;
+    }
+}
+
+
+
+
+
